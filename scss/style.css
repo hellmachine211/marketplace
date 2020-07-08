@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap; }
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center; }
+
+.header__text {
+  margin-left: auto;
+  margin-right: 25px; }
+  .header__text span {
+    color: #e74c3c; }
+
+/*# sourceMappingURL=style.css.map */
