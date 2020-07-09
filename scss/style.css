@@ -11,8 +11,98 @@
 
 .header__text {
   margin-left: auto;
-  margin-right: 25px; }
-  .header__text span {
-    color: #e74c3c; }
+  margin-right: 50px; }
+
+.header__text span {
+  color: #e74c3c; }
+
+.header__btn {
+  padding: 4px;
+  width: 72px;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px; }
+
+.header__btn-login {
+  background-color: #00bb33; }
+
+.header__btn-register {
+  background-color: #e74c3c;
+  text-align: center; }
+
+.header__menu {
+  background-color: #263238; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: 60px; }
+
+.menu__list li {
+  display: inline-block; }
+  .menu__list li + li {
+    margin-left: 30px; }
+.menu__list a {
+  color: #fff;
+  font-size: 14px; }
+
+.search {
+  background-repeat: no-repeat;
+  box-sizing: cover;
+  background-position: center;
+  min-height: 533px; }
+
+.search__inner {
+  padding: 155px 0px 100px;
+  color: #fff;
+  text-align: center; }
+  .search__inner-title {
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px; }
+  .search__inner-text {
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    line-height: 30px; }
+  .search__inner-form {
+    max-width: 670px;
+    margin: 0 auto;
+    position: relative; }
+    .search__inner-form input {
+      display: block;
+      width: 100%;
+      box-shadow: 0px 1px 10px 0px rgba(124, 178, 64, 0.75);
+      border-radius: 4px;
+      height: 56px;
+      border: none;
+      font-size: 14px;
+      font-weight: 500;
+      padding-left: 25px;
+      padding-right: 60px; }
+      .search__inner-form input::placeholder {
+        color: #99abb4;
+        font-weight: 500; }
+  .search__inner button {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    right: 20px;
+    top: 16px; }
+
+.products {
+  padding: 110px 0px;
+  background-color: #f4f6f5; }
+
+.products__inner-btn {
+  text-align: center;
+  margin-bottom: 60px; }
+  .products__inner-btn button {
+    padding: 12px 21px;
+    border: none;
+    background-color: #fff;
+    color: #263238; }
 
 /*# sourceMappingURL=style.css.map */
