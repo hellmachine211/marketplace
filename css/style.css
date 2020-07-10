@@ -192,8 +192,7 @@
 .product__item-author {
   display: flex;
   align-items: center;
-  font-size: 14px;
-  font-weight: 500;
+  max-width: 245px;
 }
 .product__item-author .avatar {
   width: 30px;
@@ -204,6 +203,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 14px;
+}
+.product__item-author span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.product__item-star {
+  font-size: 12px;
+}
+.product__item-star span {
+  color: #263238;
 }
 
 .products__bottom-btn {
@@ -221,4 +230,37 @@
 .products__bottom-btn button.mixitup-control-active {
   background-color: #e74c3c;
   color: #fff;
+}
+
+.product-slider {
+  padding: 110px 0px 120px;
+}
+.product-slider .slick-dots {
+  text-align: center;
+  margin-top: 50px;
+}
+.product-slider .slick-dots li {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.product-slider .slick-dots li.slick-active button {
+  background-color: #00bb33;
+}
+.product-slider .slick-dots li button {
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  border: none;
+  font-size: 0;
+  width: 16px;
+  height: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.product-slider button::before {
+  display: none;
+}
+
+.slick-initialized .slick-slide {
+  margin-right: 30px;
 }
