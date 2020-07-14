@@ -6,6 +6,16 @@ $green: #00bb33;
 $grey: #f4f6f5;
 $bg: #263238;
 
+@mixin f500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+@mixin f700 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
 .header__top-inner{
     display: flex;
     justify-content: space-between;
@@ -273,5 +283,76 @@ $bg: #263238;
 }
 
 
-
 // end product slider
+
+
+// start advantages
+
+.advantages{
+    background-color: $bg;
+    padding: 110px 0;
+}
+.advantages__title {
+    color: #fff;
+}
+.advantages__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.advantages__item{
+    max-width: 370px;
+    text-align: center;
+    padding: 0px 15px;
+    
+    &:hover{
+        .advantages__item-images{
+            background-color: $green;
+        }
+        .advantages__item-title{
+            color: $green;
+        }
+        .advantages__item-images{
+            g {
+                fill:#fff;
+            }
+        }
+    }
+    &-images{
+        width: 114px;
+        height: 114px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 30px;
+        transition: all .5s;
+        text-align: center;
+    }
+    &-title{
+        margin-bottom: 25px;
+        font-size: 24px;
+        @include f500;
+        color: #fff;
+        transition: all .5s;
+    }
+    &-text{
+        font-size: 1    5px;
+        color: #b0bec5;
+    }
+}
+.icosvg-1{
+    svg{
+        width: 50px;
+    }
+}
+.icosvg-2{
+    svg{
+        width: 70px;
+    }
+}
+.icosvg-3{
+    svg{
+        width: 86px;
+    }
+}
+// end advantages

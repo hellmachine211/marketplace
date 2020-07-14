@@ -264,3 +264,67 @@
 .slick-initialized .slick-slide {
   margin-right: 30px;
 }
+
+.advantages {
+  background-color: #263238;
+  padding: 110px 0;
+}
+
+.advantages__title {
+  color: #fff;
+}
+
+.advantages__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  max-width: 370px;
+  text-align: center;
+  padding: 0px 15px;
+}
+.advantages__item:hover .advantages__item-images {
+  background-color: #00bb33;
+}
+.advantages__item:hover .advantages__item-title {
+  color: #00bb33;
+}
+.advantages__item:hover .advantages__item-images g {
+  fill: #fff;
+}
+.advantages__item-images {
+  width: 114px;
+  height: 114px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 30px;
+  transition: all .5s;
+  text-align: center;
+}
+.advantages__item-title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  transition: all .5s;
+}
+.advantages__item-text {
+  font-size: 1    5px;
+  color: #b0bec5;
+}
+
+.icosvg-1 svg {
+  width: 50px;
+}
+
+.icosvg-2 svg {
+  width: 70px;
+}
+
+.icosvg-3 svg {
+  width: 86px;
+}
