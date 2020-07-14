@@ -272,6 +272,7 @@
 
 .advantages__title {
   color: #fff;
+  margin-bottom: 35px;
 }
 
 .advantages__inner {
@@ -327,4 +328,41 @@
 
 .icosvg-3 svg {
   width: 86px;
+}
+
+.author {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author__box {
+  max-width: 650px;
+  width: 100%;
+  min-height: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00bb33;
+}
+.author__title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  margin-right: 45px;
+  max-width: 260px;
+}
+.author__title span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.author__link {
+  font-size: 18px;
+  line-height: 36px;
+  padding: 14px 40px;
+  background-color: #fff;
+  color: #263238;
 }
