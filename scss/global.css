@@ -1,17 +1,17 @@
 /*
 Error: File to import not found or unreadable: fonts.
        Load path: C:/Users/another/Desktop/marketplaceprojec/marketplace/scss
-        on line 1 of C:\Users\another\Desktop\marketplaceprojec\marketplace\scss\style.scss
+        on line 1 of C:\Users\another\Desktop\marketplaceprojec\marketplace\scss\global.scss
 
 1: @import "fonts";
 2: @import "_vars.scss";
-3: @import "global.scss";
-4: 
-5: 
-6: // header start
+3: 
+4: html {
+5:   box-sizing: border-box;
+6: }
 
 Backtrace:
-C:\Users\another\Desktop\marketplaceprojec\marketplace\scss\style.scss:1
+C:\Users\another\Desktop\marketplaceprojec\marketplace\scss\global.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -49,4 +49,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: fonts.\A        Load path: C:/Users/another/Desktop/marketplaceprojec/marketplace/scss\A         on line 1 of C:\Users\another\Desktop\marketplaceprojec\marketplace\scss\style.scss\A \A 1: @import \"fonts\";\A 2: @import \"_vars.scss\";\A 3: @import \"global.scss\";\A 4: \A 5: \A 6: // header start"; }
+  content: "Error: File to import not found or unreadable: fonts.\A        Load path: C:/Users/another/Desktop/marketplaceprojec/marketplace/scss\A         on line 1 of C:\Users\another\Desktop\marketplaceprojec\marketplace\scss\global.scss\A \A 1: @import \"fonts\";\A 2: @import \"_vars.scss\";\A 3: \A 4: html {\A 5:   box-sizing: border-box;\A 6: }"; }
