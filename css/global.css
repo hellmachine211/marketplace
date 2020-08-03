@@ -27,8 +27,7 @@ body {
   font-family: "Roboto-Regular", sans-serif;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
-  color: #e74c3c; }
+  line-height: 24px; }
 
 .wrapper {
   display: flex;
