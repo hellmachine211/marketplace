@@ -328,8 +328,6 @@
 
 // header end
 
-
-
 // start modal
 
 #modal {
@@ -423,7 +421,7 @@
         font-family: "icomoon";
     }
 }
-.fancybox-button svg path{
+.fancybox-button svg path {
     color: #fff;
 }
 // end modal
@@ -1623,33 +1621,33 @@ button.icon-unsorted {
 }
 // product-one end
 
-
-
-// page start 404 
-.breadcrumbs__list{
+// page start 404
+.breadcrumbs__list {
     color: #263238;
 }
 .page-404__wrapper,
-.about__wrapper{
+.about__wrapper,
+.contact__wrapper {
     border: 1px solid #dcdcdc;
     background-color: #fff;
     margin-bottom: 150px;
 }
 .page-404__head,
-.about__head{
+.about__head,
+.contact__head {
     font-size: 24px;
     color: #263238;
     padding: 23px 27px;
     @include f500;
     border-bottom: 1px solid #dcdcdc;
 }
-.page-404__inner{
+.page-404__inner {
     text-align: center;
     background-color: $green;
     color: #fff;
 }
-.page-404__404{
-    font-family: 'Open Sans', sans-serif;
+.page-404__404 {
+    font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-size: 300px;
     color: #fff;
@@ -1657,27 +1655,27 @@ button.icon-unsorted {
     padding-bottom: 20px;
     line-height: 300px;
     position: relative;
-    &::after{
+    &::after {
         position: absolute;
         content: "";
         background-image: url(../images/content/chiuvak.png);
         width: 150px;
-        height: 292px;  
+        height: 292px;
         margin-left: 20px;
     }
 }
-.page-404__title{
+.page-404__title {
     margin-bottom: 30px;
     @include f300;
     font-size: 30px;
 }
-.page-404__text{
+.page-404__text {
     font-size: 18px;
     max-width: 501px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
-.page-404__Link{
+.page-404__Link {
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
@@ -1687,39 +1685,138 @@ button.icon-unsorted {
     margin-bottom: 100px;
 }
 
-
-// .Layer_242 {
-//     background-image: url("Layer 242.png");
-//     position: absolute;
-//     left: 1165px;
-//     top: 897px;
-//     width: 157px;
-//     height: 20px;
-//     z-index: 73;
-//   }
-  
 // page404 end
 
+// about start
 .about__inner {
     padding: 0px 50px;
 }
-.about__box{
-    h3{
+.about__box {
+    h3 {
         font-size: 20px;
         @include f700;
         color: #444;
         margin-top: 40px;
         margin-bottom: 15px;
     }
-    p{
+    p {
         font-size: 15px;
         margin-bottom: 40px;
     }
 }
-// about start
+// about end
 
+// startcontacts
+.contact__head {
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
+.contact__inner {
+    padding: 35px 40px 15px;
+}
+.contact__map{
+    margin-bottom: 50px;
+    iframe{
+        width: 100%;
+        height: 415px;
+    }
+}
+.contact__box{
+    display: flex;
+}
+.contact__info{
+    margin-right: 30px;
+    max-width: 330px;
+    width: 100%;
+}
+.contact__info-item{
+    margin-bottom: 30px;
 
+}
+.contact__info-title{
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 20px;
+    @include f500;
+    color: $bg;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    &::after{
+        content: '';
+        height: 4px;
+        width: 44px;
+        background-color: $green;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        margin-left: 39px;
+    }
+    &::before{
+        color: $green;
+        font-size: 24px;
+        position: absolute;
+        left: 0;
+    }
+}
+.contact__info-content{
+    color: #707070;
+    padding-left: 40px;
+    max-width: 230px;
+}
+.contact__form-title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    @include f500;
+    color: #333;
+}
+.contact__from-row{
+    display: flex;
+    justify-content: space-between;
+}
+.contact__form{
+    width: 100%;
+    input{
+        border: none;
+        height: 43px;
+        padding-left: 17px;
+        padding-right: 17px;
+        background-color: #f1f4f5;
+        width: 350px;
+        display: block;
+        margin-bottom: 30px;
+        &::placeholder{
+            color: #7a7a7a;
+            font-size: 15px;
+        }
+    }
+    textarea{
+        border: none;
+        padding: 13px 17px;
+        height: 190px;
+        background-color: #f1f4f5;
+        width: 100%;
+        display: block;
+        resize: none;
+        margin-bottom: 23px;
+        &::placeholder{
+            color: #7a7a7a;
+            font-size: 15px;
+        }
+    }
+    button{
+        border: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        background-color: $green;
+        text-align: center;
+        @include f700;
+        color: #fff;
+        padding: 20px 5px;
+        width: 190px;
+    }
+}
+// endcontacts
 
 // about end
 @import "_media";
