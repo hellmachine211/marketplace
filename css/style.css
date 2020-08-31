@@ -202,6 +202,14 @@ body {
   .header__btn-logout.header__btn-login--on {
     display: none; }
 
+.header__btn-login--off-settings,
+.header__btn-login--off-newitems,
+.header__btn-login--on-page,
+.product-logout,
+.header__btn-login--off-profile,
+.header__btn-login--off-upload {
+  display: block; }
+
 .user {
   margin-right: 25px;
   padding-right: 20px;
@@ -236,7 +244,7 @@ body {
     color: #00bb33; }
 
 .user__menu {
-  top: 69px;
+  top: 62px;
   left: 20px;
   border: 1px solid #ccc;
   width: 158px;
@@ -482,6 +490,181 @@ body {
 
 .fancybox-button svg path {
   color: #fff; }
+
+.notification__box-newitems,
+.message__box-newitems,
+.basket__box-newitems,
+.user__box-newitems,
+.notification__box-productpage,
+.message__box-productpage,
+.basket__box-productpage,
+.user__box-productpage,
+.notification__box-profilepage,
+.user__box-profilepage,
+.basket__box-profilepage,
+.message__box-profilepage,
+.notification__box-settings,
+.message__box-settings,
+.basket__box-settings,
+.user__box-settings,
+.notification__box-page,
+.message__box-page,
+.basket__box-page,
+.user__box-page,
+.notification__box-upload__page,
+.message__box-upload__page,
+.basket__box-upload__page,
+.user__box-upload__page {
+  display: block;
+  height: 90px;
+  margin-top: 40px;
+  position: relative;
+  margin-top: 54px;
+  margin-left: 15px; }
+  .notification__box-newitems:hover .user__menu,
+  .message__box-newitems:hover .user__menu,
+  .basket__box-newitems:hover .user__menu,
+  .user__box-newitems:hover .user__menu,
+  .notification__box-productpage:hover .user__menu,
+  .message__box-productpage:hover .user__menu,
+  .basket__box-productpage:hover .user__menu,
+  .user__box-productpage:hover .user__menu,
+  .notification__box-profilepage:hover .user__menu,
+  .user__box-profilepage:hover .user__menu,
+  .basket__box-profilepage:hover .user__menu,
+  .message__box-profilepage:hover .user__menu,
+  .notification__box-settings:hover .user__menu,
+  .message__box-settings:hover .user__menu,
+  .basket__box-settings:hover .user__menu,
+  .user__box-settings:hover .user__menu,
+  .notification__box-page:hover .user__menu,
+  .message__box-page:hover .user__menu,
+  .basket__box-page:hover .user__menu,
+  .user__box-page:hover .user__menu,
+  .notification__box-upload__page:hover .user__menu,
+  .message__box-upload__page:hover .user__menu,
+  .basket__box-upload__page:hover .user__menu,
+  .user__box-upload__page:hover .user__menu {
+    height: auto;
+    border-width: 1px;
+    overflow: auto;
+    padding: 20px; }
+  .notification__box-newitems:hover .header__circle::before,
+  .message__box-newitems:hover .header__circle::before,
+  .basket__box-newitems:hover .header__circle::before,
+  .user__box-newitems:hover .header__circle::before,
+  .notification__box-productpage:hover .header__circle::before,
+  .message__box-productpage:hover .header__circle::before,
+  .basket__box-productpage:hover .header__circle::before,
+  .user__box-productpage:hover .header__circle::before,
+  .notification__box-profilepage:hover .header__circle::before,
+  .user__box-profilepage:hover .header__circle::before,
+  .basket__box-profilepage:hover .header__circle::before,
+  .message__box-profilepage:hover .header__circle::before,
+  .notification__box-settings:hover .header__circle::before,
+  .message__box-settings:hover .header__circle::before,
+  .basket__box-settings:hover .header__circle::before,
+  .user__box-settings:hover .header__circle::before,
+  .notification__box-page:hover .header__circle::before,
+  .message__box-page:hover .header__circle::before,
+  .basket__box-page:hover .header__circle::before,
+  .user__box-page:hover .header__circle::before,
+  .notification__box-upload__page:hover .header__circle::before,
+  .message__box-upload__page:hover .header__circle::before,
+  .basket__box-upload__page:hover .header__circle::before,
+  .user__box-upload__page:hover .header__circle::before {
+    color: #263238; }
+  .notification__box-newitems:hover .circle__menu,
+  .message__box-newitems:hover .circle__menu,
+  .basket__box-newitems:hover .circle__menu,
+  .user__box-newitems:hover .circle__menu,
+  .notification__box-productpage:hover .circle__menu,
+  .message__box-productpage:hover .circle__menu,
+  .basket__box-productpage:hover .circle__menu,
+  .user__box-productpage:hover .circle__menu,
+  .notification__box-profilepage:hover .circle__menu,
+  .user__box-profilepage:hover .circle__menu,
+  .basket__box-profilepage:hover .circle__menu,
+  .message__box-profilepage:hover .circle__menu,
+  .notification__box-settings:hover .circle__menu,
+  .message__box-settings:hover .circle__menu,
+  .basket__box-settings:hover .circle__menu,
+  .user__box-settings:hover .circle__menu,
+  .notification__box-page:hover .circle__menu,
+  .message__box-page:hover .circle__menu,
+  .basket__box-page:hover .circle__menu,
+  .user__box-page:hover .circle__menu,
+  .notification__box-upload__page:hover .circle__menu,
+  .message__box-upload__page:hover .circle__menu,
+  .basket__box-upload__page:hover .circle__menu,
+  .user__box-upload__page:hover .circle__menu {
+    height: auto;
+    overflow: hidden; }
+  .notification__box-newitems:hover .circle__item,
+  .message__box-newitems:hover .circle__item,
+  .basket__box-newitems:hover .circle__item,
+  .user__box-newitems:hover .circle__item,
+  .notification__box-productpage:hover .circle__item,
+  .message__box-productpage:hover .circle__item,
+  .basket__box-productpage:hover .circle__item,
+  .user__box-productpage:hover .circle__item,
+  .notification__box-profilepage:hover .circle__item,
+  .user__box-profilepage:hover .circle__item,
+  .basket__box-profilepage:hover .circle__item,
+  .message__box-profilepage:hover .circle__item,
+  .notification__box-settings:hover .circle__item,
+  .message__box-settings:hover .circle__item,
+  .basket__box-settings:hover .circle__item,
+  .user__box-settings:hover .circle__item,
+  .notification__box-page:hover .circle__item,
+  .message__box-page:hover .circle__item,
+  .basket__box-page:hover .circle__item,
+  .user__box-page:hover .circle__item,
+  .notification__box-upload__page:hover .circle__item,
+  .message__box-upload__page:hover .circle__item,
+  .basket__box-upload__page:hover .circle__item,
+  .user__box-upload__page:hover .circle__item {
+    padding: 23px;
+    border-width: 1px; }
+
+.register-off {
+  display: none; }
+
+.notification__box-productpage,
+.message__box-productpage,
+.basket__box-productpage,
+.user__box-productpage {
+  display: block;
+  height: 90px;
+  margin-top: 40px;
+  position: relative;
+  margin-top: 54px;
+  margin-left: 15px; }
+  .notification__box-productpage:hover .user__menu,
+  .message__box-productpage:hover .user__menu,
+  .basket__box-productpage:hover .user__menu,
+  .user__box-productpage:hover .user__menu {
+    height: auto;
+    border-width: 1px;
+    overflow: auto;
+    padding: 20px; }
+  .notification__box-productpage:hover .header__circle::before,
+  .message__box-productpage:hover .header__circle::before,
+  .basket__box-productpage:hover .header__circle::before,
+  .user__box-productpage:hover .header__circle::before {
+    color: #263238; }
+  .notification__box-productpage:hover .circle__menu,
+  .message__box-productpage:hover .circle__menu,
+  .basket__box-productpage:hover .circle__menu,
+  .user__box-productpage:hover .circle__menu {
+    height: auto;
+    overflow: hidden; }
+  .notification__box-productpage:hover .circle__item,
+  .message__box-productpage:hover .circle__item,
+  .basket__box-productpage:hover .circle__item,
+  .user__box-productpage:hover .circle__item {
+    padding: 23px;
+    border-width: 1px; }
 
 .search {
   background-repeat: no-repeat;
@@ -922,8 +1105,7 @@ body {
   background-color: #fff;
   border: 1px solid #d6d6d6;
   padding: 0px 32px 32px;
-  margin-bottom: 30px;
-  width: 270px; }
+  margin-bottom: 30px; }
 
 .aside__title {
   border-bottom: 1px solid #dde3e8;
@@ -976,7 +1158,7 @@ body {
     font-family: "icomoon";
     color: #fff;
     position: absolute;
-    left: 58px;
+    left: 25px;
     top: 15px;
     font-size: 15px; }
 
@@ -1054,10 +1236,11 @@ body {
   border-bottom: 1px solid #dde3e8; }
 
 .aside__product-item .product__item:last-child {
-  border: none;
-  padding-bottom: 0; }
+  border: none; }
 .aside__product-item .product__item:first-child {
   margin-top: 25px; }
+.aside__product-item .product__item {
+  margin: 0; }
 
 .top-sellers__link {
   padding: 16px 10px;
@@ -2249,21 +2432,6 @@ button.icon-unsorted {
 
   .top-sellers {
     display: none; } }
-@media (max-width: 1000px) {
-  .profile__inner {
-    flex-direction: column; }
-
-  .profile__content {
-    order: -1;
-    margin-bottom: 20px; }
-
-  .profile__aside {
-    max-width: 100%; }
-    .profile__aside .aside__item {
-      width: 100%; }
-
-  .profile__aside-btn {
-    width: 300px; } }
 @media (max-width: 1030px) {
   .tutorial__inner {
     flex-wrap: wrap;
@@ -2285,6 +2453,21 @@ button.icon-unsorted {
   .product-one__tabs.settings__tabs .tabs {
     margin-bottom: 20px;
     max-width: 100%; } }
+@media (max-width: 1000px) {
+  .profile__inner {
+    flex-direction: column; }
+
+  .profile__content {
+    order: -1;
+    margin-bottom: 20px; }
+
+  .profile__aside {
+    max-width: 100%; }
+    .profile__aside .aside__item {
+      width: 100%; }
+
+  .profile__aside-btn {
+    width: 300px; } }
 @media (max-width: 990px) {
   .footer__col-social {
     min-width: 100%;
@@ -2399,9 +2582,33 @@ button.icon-unsorted {
     margin-bottom: 20px;
     margin-left: auto; } }
 @media (max-width: 630px) {
-  .notification__box,
-  .message__box {
+  .notification__box-newitems,
+  .notification__box-newitems,
+  .message__box-newitems,
+  .basket__box-newitems,
+  .notification__box-productpage,
+  .message__box-productpage,
+  .basket__box-productpage,
+  .notification__box-profilepage,
+  .basket__box-profilepage,
+  .message__box-profilepage,
+  .notification__box-settings,
+  .message__box-settings,
+  .basket__box-settings,
+  .notification__box-page,
+  .message__box-page,
+  .basket__box-page,
+  .notification__box-upload__page,
+  .message__box-upload__page {
     display: none; }
+
+  .header__box {
+    margin-right: 20px; }
+
+  .products__inner-btn button {
+    width: 100%; }
+    .products__inner-btn button + button {
+      margin-left: 0; }
 
   .circle__menu {
     right: auto; }
@@ -2479,11 +2686,43 @@ button.icon-unsorted {
       .product-one__tabs .tabs .tab + .tab {
         border: none;
         border-top: 1px solid #d7d7d7; } }
-@media (max-width: 630px) {
-  .products__inner-btn button {
+@media (max-width: 588px) {
+  .user__info {
+    line-height: 16px; } }
+@media (max-width: 567px) {
+  .login__wrapper button {
+    margin-right: 0;
     width: 100%; }
-    .products__inner-btn button + button {
-      margin-left: 0; } }
+
+  .header__btn-menu {
+    display: block; }
+
+  .header__btn-menu {
+    width: 90px;
+    height: 90px;
+    background-color: #263238;
+    position: absolute;
+    right: -15px;
+    top: 0;
+    z-index: 4; }
+    .header__btn-menu::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 36px;
+      color: #fff; }
+
+  .header__box {
+    transition: all 0.5s;
+    position: absolute;
+    background-color: #fff;
+    height: 70px;
+    left: 100%;
+    right: -100%; }
+    .header__box.active {
+      left: 60px;
+      right: 90px; } }
 @media (max-width: 557px) {
   .withdrawals__content {
     padding-left: 10px;
@@ -2519,48 +2758,23 @@ button.icon-unsorted {
   column-gap: 0px; }
 
 @media (max-width: 520px) {
+  .user__images {
+    margin-left: 0;
+    width: 100%; }
+
   .create-acc {
     width: 100%; }
 
-  .login__wrapper button {
-    margin-right: 0;
-    width: 100%; }
-
   .header__btn-menu {
-    display: block; }
-
-  .menu__list {
-    top: 70px; }
-
-  .header__btn-menu {
-    width: 70px;
-    height: 70px;
-    background-color: #263238;
-    position: absolute;
-    right: -15px;
-    top: 0;
-    z-index: 4; }
-    .header__btn-menu::before {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 36px;
-      color: #fff; }
-
-  .header__box {
-    transition: all 0.5s;
-    position: absolute;
-    background-color: #fff;
-    height: 70px;
-    left: 100%;
-    right: -100%; }
-    .header__box.active {
-      left: 60px;
-      right: 90px; }
+    height: 74px;
+    right: -10px; }
 
   .user__menu {
-    top: 60px; }
+    top: 51px;
+    border: none; }
+
+  .user__info {
+    line-height: 17px; }
 
   .header__logo {
     margin-left: 60px; }
